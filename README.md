@@ -1,4 +1,4 @@
-# 🎵 PowerBeats 2023 Dashboard 📊
+# 🎵 Most Streamed Spotify Dashboard 📊
 
 ## Overview
 
@@ -12,9 +12,33 @@ The data set summarizes the essence of the music landscape in 2023, covering cri
    
    - [Get the dataset](https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023?resource=download).
 
+### **Create an APP in Spotify**
+
+  - Create a Spotify Account:
+
+    - If you don't already have a Spotify account, create one by signing up on the Spotify website.
+
+  - Access the Spotify Developer Dashboard:
+
+    - Go to the Spotify Developer Dashboard.
+    - Log in with your Spotify account credentials.
+ 
+  - Create a New App:
+
+    - Once logged in, click on the "Create an App" button.
+
+  - Fill in App Details:
+
+    - Provide the necessary details for your new app, including the name and description.
+    - You may need to agree to the terms and conditions.
+
+  - Obtain Client ID and Client Secret:
+
+    - After creating the app, you'll be provided with a Client ID and Client Secret. Keep these credentials secure, as they are essential for authenticating your app with the Spotify API.
+
 ### **API Key Serenade:**
 
-   To improve the richness of the data set, we have integrated the Spotify API, leveraging real-time data to provide up-to-the-minute information about songs. This integration allows us to showcase the latest trends, listener engagement, and other dynamic aspects of each song.
+   To improve the richness of the data set, I have integrated the Spotify API, leveraging real-time data to provide information about songs. This integration allows it to showcase the URL cover of each song. 
 
    - Craft a mesmerizing `.env` melody in Visual Studio Code for the API keys.
    - Infuse magic by installing the `python-dotenv` potion: `pip install python-dotenv`.
