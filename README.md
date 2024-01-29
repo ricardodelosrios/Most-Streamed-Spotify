@@ -90,48 +90,58 @@ The script includes error handling for unsuccessful API requests and missing dat
 There's a check for the presence of the 'artist(s)_name' column in the DataFrame before proceeding with the search.
 Error messages are printed to the console in case of issues.
 
-## Power BI Symphony 🎵
+## **Power BI Dashboard**
 
-1. **Install Bravo Overture:**
-   - Install Bravo, the virtuoso of Power BI.
+### Bravo Installation:
 
-2. **Date Waltz:**
-   - Choreograph the 'Date' waltz, uniting 'released_year,' 'released_month,' and 'released_day.'
+Begin by installing Bravo for Power BI.
 
-3. **Visual Crescendo:**
-   - Bravo takes the lead in a visual crescendo – clustered bar charts, line charts, and slicers pirouette across the dashboard.
+## Date Handling:
 
-4. **Measures Composition:**
-   - Compose custom measures, turning data into a symphony of insights.
+Enhance date analysis by creating a 'Date' column that amalgamates 'released_year,' 'released_month,' and 'released_day.'
 
-5. **Visual Sonnet:**
-   - Conjure HTML poetry for image integration – visuals that resonate like sonnets within Power BI.
+## Dashboard Visualizations:
 
-6. **Deneb Visual Rhapsody:**
-   - Contribute to the visual symphony with Deneb's rhapsody. Express with new measures, aligning notes with provided instructions.
+* Utilize a bar chart to visualize the distribution of tracks based on the number of streams.
+* Implement a line chart to illustrate the correlation between tracks and their release dates.
+* Enhance interactivity by employing slicers to create filters for date, artist, track, and year.
 
-7. **Heatmap Ballroom:**
-   - Join the heatmap ballroom, creating new measures and importing JSON templates for a dance of colors.
+### Custom Measures:
 
-## Visual Styling Elegance 💅
+ * Elevate analytical capabilities with custom measures like top song streams, average stream per year, and additional metrics outlined in the provided steps.
+   
+### Image Integration:
 
-1. **Theme Couture:**
-   - Adorn the dashboard with a bespoke theme, tailored for a visual feast.
+ * Seamlessly integrate HTML visualizations to showcase images within the Power BI environment.
 
-2. **Color Palette Symphony:**
-   - Craft a color palette symphony, harmonizing the hues for an aesthetic resonance.
+### Deneb Visuals Integration:
 
-3. **Formatting Flourish:**
-   - Embellish titles, labels, and formatting with a touch of creative flourish.
+ * Implement specified measures.
+ * Integrate Deneb visuals and tailor them according to provided instructions.
 
-## Cards and Drama 🎭
+### Heatmap with Bars:
 
-1. **Card Revolution:**
-   - Transition to the new card format, casting off the old in favor of a dramatic facelift.
+Augment analysis with a new measure for track count.
+Import the supplied JSON template for a [heatmap with bars](https://github.com/PowerBI-tips/Deneb-Templates/blob/main/templates/heatmap%20with%20bars%20-%20red%20themed.json). 
 
-2. **Conditional Drama:**
-   - Add a touch of theatrical flair with conditional formatting, where cards express their moods based on the script.
+## Power BI Formatting Refinement
 
-## Project Crescendo 🚀
+### Custom Themes:
 
-The PowerBeats 2023 Dashboard, a crescendo of data and visuals, invites you to experience music analytics like never before. 🚀 Let the beats guide you through the symphony of insights and rhythms! 🎉
+Personalize the Power BI theme for a distinctive visual experience.
+
+### Color Palette:
+
+Tailor the color palette to align with specified colors for a cohesive and branded appearance.
+
+### Formatting Adjustments:
+
+Customize titles, labels, and formatting across the entire dashboard for a polished presentation.
+Cards and Conditional Formatting
+
+### Card Formatting:
+
+Modernize card formatting with a transition to a new style, adjusting backgrounds and borders for visual appeal.
+Conditional Formatting:
+
+Implement conditional formatting for cards, enhancing data interpretation based on positive or negative values.
