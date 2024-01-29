@@ -6,7 +6,7 @@ This project offers a deep dive into the trends of the most popular songs from 2
 
 ## Step by Step 🛠️
 
-### **Download the Kaggle Anthem:**
+### **Download the Kaggle Data**
    
 The data set summarizes the essence of the music landscape in 2023, covering critical information such as track names, artists, release dates, playlists and Spotify charts, streaming statistics, Apple Music and Deezer presence, Shazam charts and a variety of audio. characteristics.
    
@@ -75,25 +75,20 @@ The function ***get_track_details(track_id, token)*** retrieves details of a tra
 
 ### Processing a DataFrame:
 
-The script reads a CSV file named 'spotify-2023.csv' into a Pandas DataFrame.
+The script reads a CSV file named **'spotify-2023.csv'** into a Pandas DataFrame.
 It iterates through each row of the DataFrame, searching for track details and updating the DataFrame with the URL of the first image associated with the track's album.
-The results are stored in a new column named 'image_url'.
-The updated DataFrame is saved to a new CSV file named 'updated_file.csv'.
-Printing Columns:
+The results are stored in a new column named **'image_url'**.
+The updated DataFrame is saved to a new CSV file named **'updated_file.csv'**.
+
+### Printing Columns:
 
 The script prints the column names of the DataFrame to the console.
-Note:
+
+**Note:**
 
 The script includes error handling for unsuccessful API requests and missing data.
 There's a check for the presence of the 'artist(s)_name' column in the DataFrame before proceeding with the search.
 Error messages are printed to the console in case of issues.
-
-### **Spotify API Enchantment:**
-   
-   - Cast a Python spell with the script to harmonize Kaggle data with real-time Spotify sorcery.
-
-7. **Data Ballet:**
-   - Dance with the script to produce a clean CSV ballad ('updated_file.csv') enriched with Spotify magic.
 
 ## Power BI Symphony 🎵
 
